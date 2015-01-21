@@ -24,6 +24,13 @@ public class Didactico extends Libro {
 	public void setUnidadesDidacticas(int cantidad) {
 		this.unidadesDidacticas = cantidad;
 	}
-
+	
+	//metodo override
+	@Override
+	public void leer() {
+		
+		super.leer();
+		System.out.println("Estudiando unidad didactica");
+	}
 
 }

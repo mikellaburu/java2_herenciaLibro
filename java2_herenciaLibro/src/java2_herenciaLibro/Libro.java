@@ -59,5 +59,11 @@ public class Libro {
 		public void setEditorial(String nombreEditorial) {
 			this.editorial = nombreEditorial;
 		}
+		
+		//metodo de superclase
+		public void leer() {
+			
+			System.out.println("Leer libro...");
+		}
 
 }

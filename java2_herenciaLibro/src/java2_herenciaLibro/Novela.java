@@ -33,4 +33,12 @@ public class Novela extends Libro {
 		public void setCapitulos(int cantidadCapitulos) {
 			this.capitulos = cantidadCapitulos;
 		}
+		
+		//metodo override
+		@Override
+		public void leer() {
+			
+			super.leer();
+			System.out.println("Leyendo novela");
+		}
 }

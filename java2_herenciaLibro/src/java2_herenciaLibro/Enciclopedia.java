@@ -34,4 +34,12 @@ public class Enciclopedia extends Libro {
 		this.tipo = tipoEnciclopedia;
 	}
 	
+	//metodo override
+		@Override
+		public void leer() {
+			
+			super.leer();
+			System.out.println("Consultando enciclopedia");
+		}
+	
 }

@@ -22,6 +22,7 @@ public class ProgramaLibro {
         System.out.println("Editorial: "+ novela.getEditorial());
         System.out.println("Tipo: "+novela.getArgumento());
         System.out.println("Capitulos: "+novela.getCapitulos());
+        novela.leer();
         System.out.println("\tClase: "+novela.getClass());
         System.out.println();
         
@@ -44,6 +45,7 @@ public class ProgramaLibro {
         System.out.println("Tipo: "+enci.getTipo());
         System.out.println("Tomos: "+enci.getTomos());
         System.out.println("Conceptos: "+enci.getConceptos());
+        enci.leer();
         System.out.println("\tClase: "+enci.getClass());
         System.out.println();
         
@@ -64,6 +66,7 @@ public class ProgramaLibro {
         System.out.println("Editorial: "+ did.getEditorial());
         System.out.println("Tema: "+did.getTema());
         System.out.println("Cantidad de unidades didacticas: "+did.getUnidadesDidacticas());
+        did.leer();
         System.out.println("\tClase: "+did.getClass());
         System.out.println();
         
