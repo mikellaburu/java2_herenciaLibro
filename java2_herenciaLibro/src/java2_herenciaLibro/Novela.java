@@ -1,7 +1,7 @@
 package java2_herenciaLibro;
 
 //subclase
-public class Novela extends Libro {
+public final class Novela extends Libro {
 	
 		//atributos
 		private String tipoNovela;

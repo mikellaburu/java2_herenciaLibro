@@ -1,7 +1,7 @@
 package java2_herenciaLibro;
 
 //subclase
-public class Didactico extends Libro {
+public final class Didactico extends Libro {
 
 	//atributos
 	private String tema;

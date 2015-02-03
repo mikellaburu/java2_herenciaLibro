@@ -1,7 +1,7 @@
 package java2_herenciaLibro;
 
 //subclase
-public class Enciclopedia extends Libro {
+public final class Enciclopedia extends Libro {
 
 	//atributos
 	private int tomos;
