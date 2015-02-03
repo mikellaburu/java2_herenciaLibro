@@ -1,7 +1,7 @@
 package java2_herenciaLibro;
 
 //subclase
-public final class Enciclopedia extends Libro {
+public class Enciclopedia extends Libro {
 
 	//atributos
 	private int tomos;
@@ -36,7 +36,7 @@ public final class Enciclopedia extends Libro {
 	
 	//metodo override
 		@Override
-		public void leer() {
+		public final void leer() {
 			
 			super.leer();
 			System.out.println("Consultando enciclopedia");

@@ -1,6 +1,6 @@
 package java2_herenciaLibro;
 
-//subclase
+//subclase concreta, no se puede heredar de esta clase por el modificador 'final' 
 public final class Didactico extends Libro {
 
 	//atributos
